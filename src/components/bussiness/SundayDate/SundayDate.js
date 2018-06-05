@@ -2,12 +2,14 @@ import React,{Component} from 'react'
 import moment from 'moment'
 import 'moment/locale/pl'
 
+import './SundayDate.css'
+
 moment.locale('pl')
 
 class SundayDate extends Component {
 
     state = {
-        DateFormatted: moment().format('LLLL')
+        dateFormatted: moment().format('LLLL')
 }
 
  tick = () => {
@@ -20,12 +22,11 @@ componentDidMount () {
         setInterval(this.tick, 1000)
 }
 
-
     render () {
-        const date = this.state.DateFormatted
+        const date = this.state.dateFormatted
         return (
-<div>
-            <p>Dziś jest {date}</p>
+<div className="sundayDate">
+            <h1>Dziś jest {date}</h1>
 </div>
         )
 
