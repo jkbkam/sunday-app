@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import SundayDate from "../SundayDate/SundayDate";
 import SundayInfo from "../SundayInfo/SundayInfo";
+import SundayCalendar from "../SundayCalendar/SundayCalendar";
 
 
 class SundayApp extends Component {
@@ -8,7 +9,8 @@ class SundayApp extends Component {
         return (
             <div>
                 <SundayDate/>,
-                <SundayInfo/>
+                <SundayInfo/>,
+                <SundayCalendar/>
             </div>
         )
     }
