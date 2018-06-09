@@ -1,8 +1,11 @@
 .sundayCalendar {
-    height: 100px;
     width: 600px;
     text-align: center;
     margin: 0 auto;
     border: solid 1px black;
     border-radius: 2px;
+}
+
+.calendar {
+    margin: 0 auto;
 }

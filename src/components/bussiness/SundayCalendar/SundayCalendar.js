@@ -20,6 +20,7 @@ class SundayCalendar extends Component {
 
             <div className="sundayCalendar">
                 <Calendar
+                className={"calendar"}
                 onChange={this.onChange}
                 value={this.state.date}/>
             </div>
