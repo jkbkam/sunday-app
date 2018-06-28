@@ -4,6 +4,14 @@ import './SundayInfo.css'
 
 class SundayInfo extends Component {
 
+componentDidMount() {
+
+    const dateNow = new Date()
+const otwarte = []
+    if (dateNow.getDate())
+}
+
+
     render() {
         return (
             <div className="sundayInfo">
