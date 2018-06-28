@@ -9,12 +9,12 @@ moment.locale('pl')
 class SundayDate extends Component {
 
     state = {
-        dateFormatted: moment().format('LLLL')
+        dateFormatted: moment().format('LL')
 }
 
  tick = () => {
         this.setState({
-        dateFormatted: moment().format('LLLL')
+        dateFormatted: moment().format('LL')
         })
 }
 
