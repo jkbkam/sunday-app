@@ -7,8 +7,7 @@ class SundayInfo extends Component {
 componentDidMount() {
 
     const dateNow = new Date()
-const otwarte = []
-    if (dateNow.getDate())
+
 }
 
 
